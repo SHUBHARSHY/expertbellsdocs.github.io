@@ -1,0 +1,357 @@
+.navbar{
+    display: flex;
+    background-color: #0C233B;
+}
+
+.nav-container{
+    flex-wrap: wrap;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    background-color:#0C233B;
+    color: white;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    height: 107px;
+}
+
+.icon{
+    margin-left: 108px;
+    margin-top: 20.92px;
+    cursor: pointer;
+}
+
+.nav-inr-container{
+    margin-right: 129px;
+    margin-top: 34.92px;
+    display: flex;
+    gap: 33px;
+    width: 29%;
+}
+.mentor{
+font-size: 14px;
+padding-top: 9px;
+cursor: pointer;
+
+}
+.more{
+    font-size: 14px;
+    cursor: pointer;  
+}
+.btnn{
+    color: black;
+    background-color: white;
+    border: none;
+    width: 80px;
+    height: 35px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+
+
+.container-1{
+    width: 100%;
+    display: flex;
+    margin-top: 91px;
+}
+
+.path{
+    font-size: 12px;
+    font-weight: 500;
+    margin: 36px 0px 0px 90px;
+}
+
+.container-2{
+ display: flex;
+ margin:25px 0px 0px 90px;
+ justify-content: space-between;
+}
+.heading{
+    display: flex;
+}
+.heading-1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: #0C233B;
+    margin-bottom: 0;
+}
+
+.heading-2{
+    font-size: 2rem;
+    color: #0C233B;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.myline{
+width: 3rem;
+}
+
+.dropdown-1{
+    border: 1px solid #0C233B;
+    border-radius: 15px;
+    width: 114px;
+    height: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+.dropdown-2{
+    border: 1px solid #0C233B;
+    border-radius: 15px;
+    width: 80px;
+    height: 28px;
+    margin-right: 69%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.search{
+    font-size: 1.3rem;
+    margin: 6px 117px 57px 0px;
+    text-align: center;
+    border-radius: 11px;
+    border: 1px solid black;
+    width: 28%;
+    cursor: pointer;
+}
+.search-input{
+    border: none;
+    margin: 5px 40px 0px 0px;
+    outline: none;
+}
+
+.container-3{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 66px;
+}
+.cardd{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 66%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+
+
+}
+.card-1{
+    /* text-align: center; */
+    margin: 27px 0px 0px 28px;
+}
+.price-tag{
+margin-top: 25px;
+color: #0C233B;
+}
+.price{
+    color: #4BAE4F;
+}
+
+.card-2{
+    
+    margin: 27px 0px 27px 28px;
+    width: 55%;
+}
+.post{
+    font-size: 1rem;
+    color: #0C233B;
+}
+
+
+.name{
+    color: #0C233B;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    color: #0C233BCC;
+}
+.skill-market{
+    height: 26px;
+    background-color: #1678FB1A;
+    border-radius: 10px;
+    margin: 5px;
+    color: #0C233B;
+    font-size: 11px;
+    width: 24%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.skill-idea{
+    height: 26px;
+    background-color: #1678FB1A;
+    border-radius: 10px;
+    margin: 5px;
+    color: #0C233B;
+    font-size: 11px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-AI{
+    height: 26px;
+    background-color: #1678FB1A;
+    border-radius: 10px;
+    margin: 5px;
+    color: #0C233B;
+    font-size: 11px;
+    width: 17%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-career{
+    height: 26px;
+    background-color: #1678FB1A;
+    border-radius: 10px;
+    margin: 5px;
+    color: #0C233B;
+    font-size: 11px;
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-product{
+    height: 26px;
+    background-color: #1678FB1A;
+    border-radius: 10px;
+    margin: 5px;
+    color: #0C233B;
+    font-size: 11px;
+    width: 36%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discription{
+    font-size: 11px;
+    color: #0C233BB2;
+}
+
+.card-3{
+    
+    margin: 27px 0px 27px 28px;
+    border: 1px solid#0000004D;
+}
+
+.card-4{
+    
+    margin: 27px 0px 0px 28px;
+}
+.package{
+    color: #0C233B;
+    font-size: large;
+}
+
+.time-table{
+    display: flex;
+}
+.radio{
+    margin: 0px 10px 20px 0px;
+}
+.radio-disc{
+color: #0C233B;
+font-weight: 500;
+}
+.clock{
+font-size: x-small;
+color: #0C233B;
+}
+.package-btn{
+    border: none;
+    background-color: #0C233B;
+    color: white;
+    border-radius: 8px;
+    width: 80%;
+    font-size: small;
+    height: 35px;
+    margin: 25px 0px 0px 21px;
+}
+
+
+/* footer section */
+
+.foot{
+    background-color: #1C1E28;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inr-foot{
+   width: 74%;
+
+}
+
+.foot-disc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+}
+.disc-1{
+    width: 24%;
+}
+.para{
+    color: grey;
+    font-size: x-small;
+    display: flex;
+    flex-wrap: wrap;
+}
+.disc-2{
+
+}
+.head-1{
+
+}
+.head-detail{
+    color: grey;
+    font-size: x-small;
+    margin-top: 7px;
+}
+.head-para{
+    color: grey;
+    font-size: x-small;
+    margin-top: 7px;
+    width: 80%;
+}
+.foot-btn{
+    border: none;
+    font-size: small;
+    width: 51%;
+    height: 25%;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.credential{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 13px;
+}
+.Copyright{
+    color: grey;
+    font-size: x-small
+}
+.thanks{
+    color: grey;
+    font-size: x-small;
+}
